@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="facilito.codigo.app.junior.com.myapplicationcf.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:hint="@string/StringTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/accent_material_dark"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EditText1IngrePesos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:hint="@string/StringTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/accent_material_dark"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EditText2IngreSoles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/ButtonCalcular1"
+        android:hint="@string/StringButtonCal1"
+        android:layout_width="60pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/ButtonCalcular2"
+        android:hint="@string/StringButtonCal2"
+        android:layout_width="60pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/TextViewResultdo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:gravity="center_horizontal" />
+
+
+</LinearLayout>

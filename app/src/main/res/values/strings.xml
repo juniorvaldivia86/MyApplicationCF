@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application CF</string>
+    <string name="saludo_principal">Bienbenidos a mi App</string>
+    <string name="StringButtonCal1">Calcular Pesos a Soles</string>
+    <string name="StringButtonCal2">Calcular Soles a Pesos</string>
+
+    <string name="StringTextView1">Convertir Pesos a Soles</string>
+    <string name="StringTextView2">Convertir Soles a Pesos</string>
+</resources>
